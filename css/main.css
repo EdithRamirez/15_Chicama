@@ -25,26 +25,43 @@ span, a, button{
 	height: auto;
 	margin: 8% 0;
 }
+/*agranda imagen*/
+.logo:hover{
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+}
 /*estilo de navegador*/
 li{
 	margin: 5% 3%;
 	text-align: center;
 	list-style: none;
 	display: inline-block;	
-	padding-right: 5%;	
+
 }
 li a{
 	text-decoration: none;
 	color: #000;
 	font-size: .8em;
-
 }
+li a:hover{
+	background-color: #EBA613;
+	color: #fff;
+	padding: 10%;
+	border-radius: 15px;
+}
+
 /*fotos 3 de la columa*/
 .foto-peque{
 	width: 100%;
 	height: auto;
 	padding: 5% 0 0 0;
+	opacity: 1;
 }
+.foto-peque:hover{
+	opacity: 0.5;
+}
+
 .margin{
 	margin: 3% 0;
 }
